@@ -72,7 +72,7 @@ const uploadImageToBlob = async (imageBuffer, filename) => {
             headers: {
                 'Content-Type': 'image/png',
             },
-             body: imageBuffer,
+            body: imageBuffer,
         });
 
         if (!response.ok) {
